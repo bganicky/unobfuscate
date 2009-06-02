@@ -31,7 +31,7 @@
 	function gimmeMail(str, at, dot) {
 		// simply return defuscated address, k thx bai
 		return str.replace(at, '@', 'g').replace(dot, '.', 'g');
-	};
+	}
 
 	$.fn.unobfuscate = function(options) {
 		// merge default and user-defined options
